@@ -20,4 +20,5 @@ RUN mkdir -p data/logs && chown appuser:appuser data/logs
 USER appuser
 # Una imagen, tres desplegables: SERVICE_ROLE = all | orchestrator | vision | logs.
 # Con LOGS_BACKEND=local se genera un log de demo; con ssh no se toca nada.
-CMD [ "$LOGS_BACKEND" = "ssh" ] || python scripts/generate_demo_logs.py; exec gunicorn --bind :$PORT --workers 1 --worker-class uvicorn.workers.UvicornWorker --timeout 0 app.main:app
+# Forma exec envolviendo `sh -c`: el shell expande $PORT y $LOGS_BACKEND, sin la ambigüedad de un CMD que empieza por "[" y no es JSON.
+CMD ["sh", "-c", "[ \"$LOGS_BACKEND\" = ssh ] || python scripts/generate_demo_logs.py; exec gunicorn --bind :$PORT --workers 1 --worker-class uvicorn.workers.UvicornWorker --timeout 0 app.main:app"]
