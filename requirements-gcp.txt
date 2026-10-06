@@ -1,0 +1,6 @@
+# Modo productivo: Gemini, ID tokens entre servicios y logs remotos por SSH
+-r requirements.txt
+google-genai==2.14.0
+google-auth==2.35.0
+requests==2.32.3
+paramiko==3.5.0

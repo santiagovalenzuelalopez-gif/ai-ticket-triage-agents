@@ -1,0 +1,14 @@
+[
+  {
+    "question": "¿Cómo restablecer mi contraseña de acceso?",
+    "answer": "Usa la opción «Olvidé mi contraseña» en la pantalla de acceso; recibirás un enlace por correo válido por 30 minutos."
+  },
+  {
+    "question": "¿Cuál es el horario de atención de la mesa de servicio?",
+    "answer": "De lunes a viernes de 8:00 a 17:00. Fuera de ese horario solo se atienden incidentes críticos."
+  },
+  {
+    "question": "¿Cómo solicitar un nuevo usuario para la plataforma?",
+    "answer": "Envía el formulario de alta de usuario con la autorización del responsable del área."
+  }
+]

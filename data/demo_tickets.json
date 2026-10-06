@@ -1,0 +1,93 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "title": "No puedo ingresar a mi cuenta",
+      "state": "new",
+      "customer": "ana@example.com",
+      "customer_company": "Acme",
+      "articles": [
+        {
+          "sender": "customer",
+          "subject": "Contraseña",
+          "body": "Hola, necesito restablecer mi contraseña de acceso a la plataforma."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pantalla en blanco en el portal",
+      "state": "new",
+      "customer": "luis@example.com",
+      "customer_company": "Acme",
+      "articles": [
+        {
+          "sender": "customer",
+          "subject": "Portal caído",
+          "body": "Desde esta mañana el portal muestra una pantalla en blanco al abrir cualquier página.\nEntidad: Acme"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ajuste de diseño del banner",
+      "state": "new",
+      "customer": "sofia@example.com",
+      "customer_company": "Acme",
+      "articles": [
+        {
+          "sender": "customer",
+          "subject": "Nuevo banner",
+          "body": "Adjunto la imagen con el boceto del nuevo banner de la portada para su revisión."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Archivos cifrados en el servidor",
+      "state": "new",
+      "customer": "ti@example.com",
+      "customer_company": "Acme",
+      "articles": [
+        {
+          "sender": "customer",
+          "subject": "URGENTE",
+          "body": "Posible ransomware: varios archivos aparecen cifrados y piden un rescate."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Consulta en seguimiento",
+      "state": "new",
+      "customer": "ana@example.com",
+      "customer_company": "Acme",
+      "articles": [
+        {
+          "sender": "customer",
+          "subject": "Consulta",
+          "body": "Primera consulta"
+        },
+        {
+          "sender": "agent",
+          "subject": "Re: Consulta",
+          "body": "Ya lo estamos revisando"
+        },
+        {
+          "sender": "customer",
+          "subject": "Re: Consulta",
+          "body": "Gracias, ¿hay novedades?"
+        }
+      ]
+    }
+  ],
+  "images": {
+    "3": [
+      {
+        "data": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==",
+        "mime_type": "image/png",
+        "filename": "boceto.png"
+      }
+    ]
+  }
+}
